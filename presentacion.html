@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/css.css" />
+
+    <title>Presentación</title>
+
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    
+
+    <script type="text/javascript" src="js/js.js"></script>
+</head>
+<body id="cuerp">
+
+
+
+    <header class="titulo">
+        
+
+
+        <div class="recuadro">
+            <h1 class="tittext">Memory Game</h1>
+        </div>
+
+    </header>
+
+
+    <main class="principal" id="contenedor">
+        <section class="pantalla" id="pantInst">
+
+            <div class="instr">
+                <h2>Instrucciones</h2>
+                <p>
+                    Bienvenido/a, dispones de X segundos para encontrar la pareja de todas los colores. 
+                    Para ello deberás memorizar la posición de cada elemento (color) y la de su pareja. 
+                    El juego finaliza cuando se cometen X errores, finaliza el tiempo o bien superas con éxito el nivel.
+                </p>
+                <p>
+                    Dispones de varios modos de dificulta teniendo diferente número de errores posibles para cada uno de ellas.
+                </p>
+                <ul class="listaErrores">
+                    <li>
+                        Principiante: 2 errores
+                    </li>
+                    <li>
+                        Intermedio: 5 errores
+                    </li>
+                    <li>
+                        Avanzado: 8 errores
+                    </li>
+                </ul>
+                <p>
+                    ¿Lo conseguirás?
+                </p>
+            </div>
+
+            <div class="modos">
+                <h2>Dificultad</h2>
+
+                <div class="opcion">
+                    <input type="radio" id="facil" name="dificultad" value="facil" checked>
+                    <label for="facil">Principiante</label>
+                </div>
+                <div class="opcion">
+                    <input type="radio" id="normal" name="dificultad" value="normal">
+                    <label for="normal">Intermedio</label>
+                </div>
+                <div class="opcion">
+                    <input type="radio" id="dificil" name="dificultad" value="dificil">
+                    <label for="dificil">Avanzado</label>
+                </div>  
+                <div class="comienzo">
+                    <button id="bot2" class="button2">Empezar</button>
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+    </main>
+    <footer>
+
+
+    </footer>
+</body>
